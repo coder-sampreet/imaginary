@@ -36,7 +36,7 @@ const Result = () => {
 
       <div>
         <div className='relative'>
-          <img className='max-w-sm rounded' src={image} alt="" />
+          <img className='max-w-sm rounded max-sm:max-w-xs' src={image} alt="" />
           <span className={`absolute bottom-0 left-0 h-1 bg-blue-500 ${loading ? 'w-full transition-all duration-[10s]' : 'w-0'}`} />
         </div>
         <p className={!loading ? 'hidden' : ''}>Loading.....</p>
