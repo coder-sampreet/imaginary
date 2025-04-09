@@ -18,7 +18,7 @@ const Footer = () => {
           <img width={35} src={assets.facebook_icon} alt="" />
         </a>
         <a
-          href="https://x.com/coder_sampreet"
+          href="https://x.com/codersampreet"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:scale-110 hover:opacity-80 transition-transform duration-300"
